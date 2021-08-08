@@ -6,15 +6,15 @@ POST {{url}}/api/v1/Authorization/
 Content-Type: application/json
 
 {
-  "email": "dialer.auth@dialerpubliwebs.com",
-  "password": "Dial4st2021*!"
+  "email": "dialer.auth@test.com",
+  "password": "pastest*!"
 }
 
 ###
 @jwtoken = {{login.response.body.token}}
 
 ### StatusDialer // para validar Authorization
-POST {{url}}/api/v1/prog/StatusDialer
+POST {{url}}/api/v1/prog/Status
 Content-Type: application/json
 Authorization: Bearer {{jwtoken}}
 
