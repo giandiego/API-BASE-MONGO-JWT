@@ -55,16 +55,16 @@ cd /opt/
 git clone https://github.com/giandiego/api-base-mongo-jwt.git
 ```
 
+Edit enviroment variables in /opt/api-base-mongo-jwt/ (changues values)
+```
+cp env-example .env
+```
+
 Install Dependencies
 ```
 cd /opt/api-base-mongo-jwt/
 npm install --force
 npm run build
-```
-
-Edit enviroment variables in /opt/api-base-mongo-jwt/ (changues values)
-```
-cp env-example .env
 ```
 
 # Run the Project
